@@ -1,0 +1,202 @@
+body {
+    background: #DD092F;
+    font-family: "Inter", sans-serif;
+}
+
+body.white {
+    background-color: #F6F8FC;
+}
+
+body.white .search input, body.white .search button, body.white .card {
+    box-shadow: 0 0 8px #888888;
+}
+
+body.white .card {
+    background-color: white;
+}
+
+body.white .card p,
+body.white .card h3,
+body.white .card button,
+body.white .card .label,
+body.white .card .number
+ { 
+    color: black;
+}
+
+body.white .card .label {
+    background-color: #BFC66B;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 61px;
+}
+
+#toggle {
+    border-radius: 20px;
+    padding: 5px 25px;
+    border: none;
+    color: #DD092F;
+    background-color: white;
+}
+
+#toggle.white {
+    color: white;
+    background-color: #DD092F;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo-main {
+    height: 152px;
+    width: fit-content;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    width: 75%;
+}
+
+.search input {
+    height: 73px;
+    width: 91%;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+}
+
+.search button {
+    padding: 16px 21px;
+    border-radius: 10px;
+    border: none;
+    background: #FF5350;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #ff6360;
+}
+
+.search button img {
+    height: 40px;
+    color: white;
+}
+
+.list {
+    width: 75%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    background: #77B35B;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card > div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels {
+    display: flex;
+    gap: 10px;
+    font-size: 9pt;
+    color: white;
+}
+
+.label {
+    background: #BFC66B;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.number {
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.content {
+    margin: 15px 0 0 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.content h3 {
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: white;
+}
+
+.content button {
+    margin: 10px 0 0 0;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 15px;
+    background: #BFC66B;
+    color: white;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: #BFD67B;
+}
+
+.image-list {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+}
+
+.image-list img {
+    width: 180px;
+    height: 180px;
+  }
+
+/* Pokemon */
+
+.pokemon {
+    margin: 0 auto;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.pokemon-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-img > img {
+    width: 80%;
+}
