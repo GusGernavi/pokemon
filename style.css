@@ -44,11 +44,21 @@ header img {
     border: none;
     color: #DD092F;
     background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#toggle:hover {
+    background-color: #eeeeee;
 }
 
 #toggle.white {
     color: white;
     background-color: #DD092F;
+}
+
+#toggle.white:hover {
+    background-color: #b10424;
 }
 
 .search-container {
